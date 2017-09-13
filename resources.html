@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>George's Maple Products</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript">
+
+function goToPage2()
+{
+PageIndex2=document.form2.select2.selectedIndex
+if (document.form2.select2.options[PageIndex2].value != "none")
+   {
+  window.location = document.form2.select2.options[PageIndex2].value
+  }// end of if statement
+}// end of function
+
+</script>
+
+
+</head>
+
+<body>
+
+
+<div id="wrapper">
+
+
+<div class="BodyTextBold" id="header">
+<h1 class="h1">George's Maple Products</h1>
+<h6 class="h6">~ Est. 1873 ~</h6>
+
+</div>
+
+
+
+<div id="nav">
+
+
+	<ul>
+	 		<li><a class="button" href="index.html" >Home</a></li>
+		<li><a class="button" href="recipes.html" >Recipes</a></li>
+		<li><a class="button" href="comments.html" >Comments</a></li>
+		<li><a class="button" href="contacts.html" >Contact</a></li>
+        <li><a class="button" href="events.html"  >Events</a></li>
+        <li><a class="button" href="products.html" >Products</a></li>
+		<li><a  class="button" href="resources.html" >Resources</a></li>
+        
+	</ul>
+
+</div>
+
+
+
+<div id="content" class="ResourcesLength">
+<h3 class="h3">Resources</h3>
+
+<table>
+  <tr>
+    <td> <a class="external" href="https://css-tricks.com/snippets/html/get-directions-form-google-maps/"  target="_blank">How to add google map directions</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="http://stackoverflow.com/questions/173332/how-should-i-express-fractions-like-15-16ths-in-html" target="_blank">html fractions</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="http://www.nysmaple.com/" target="_blank">NY Maple Producers website</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="http://www.flaticon.com/free-icon/maple-leaf_40149" target="_blank">maple leaf icon</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="http://www.immigration-usa.com/html_colors.html" target="_blank">html color code</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="http://css.maxdesign.com.au/floatutorial/tutorial0612.htm#" target="_blank">navigation</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="https://css-tricks.com/" target="_blank">css tricks</a></td>
+  </tr>
+  <tr>
+    <td><a class="external" href="http://www.w3schools.com/css/" target="_blank">w3 schools</a> </td>
+  </tr>
+</table>
+
+  
+
+</div>
+<div id="footer">
+
+<form NAME="form2" action="nextpage.html">
+ 
+    <select name="select2" size="1" onChange="goToPage2()">
+      <option value="none">Select a page and go</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/index.html">Home</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/recipes.html">Recipes</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/comments.html">Comments</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/contacts.html">Contacts</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/events.html">Events</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/products.html">Products</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/resources.html">Resources</option>
+        </select>
+  
+</form>
+
+<img class="val" src="images/validation.png"  width="35" height="21" alt="validation icon" title="validation icon"/>
+
+
+
+</div>
+
+
+
+
+</div><!-- end of wrapper -->
+
+
+</body>
+</html>

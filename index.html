@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>George's Maple Products</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript">
+
+function goToPage2()
+{
+PageIndex2=document.form2.select2.selectedIndex
+if (document.form2.select2.options[PageIndex2].value != "none")
+   {
+  window.location = document.form2.select2.options[PageIndex2].value
+  }// end of if statement
+}// end of function
+
+</script>
+
+<script  type="text/javascript">
+	function change(id,img)
+{
+	document.getElementById(id) .src = img; 	
+
+}
+</script>
+
+
+</head>
+
+<body>
+
+
+<div id="wrapper">
+
+
+<div class="BodyTextBold" id="header">
+<h1 class="h1">George's Maple Products</h1>
+<h6 class="h6">~ Est. 1873 ~</h6>
+</div>
+
+
+
+<div id="nav">
+
+
+	<ul>
+	    	<li><a class="button" href="index.html" >Home</a></li>
+		<li><a class="button" href="recipes.html" >Recipes</a></li>
+		<li><a class="button" href="comments.html" >Comments</a></li>
+		<li><a class="button" href="contacts.html" >Contact</a></li>
+        <li><a class="button" href="events.html"  >Events</a></li>
+        <li><a class="button" href="products.html" >Products</a></li>
+		<li><a  class="button" href="resources.html" >Resources</a></li>
+        
+	</ul>
+</div>
+
+
+
+<div id="content" class="IndexLength">
+
+<img id="sugar46" src="images/george22.jpg" alt="sugar46" title="sugar46" width="400" height="228"
+onmouseover="change('sugar46','images/george11.jpg')"
+ onmouseout="change('sugar46','images/george22.jpg')"
+
+ />
+ 
+ <p> Welcome to George's Maple Products where the tradition of making Maple Syrup is carried on by fifth generation Maple Producer Phil George and his family. By moving maple production into the 21st century and using the latest maple production technologies he is able to bring superior tasting maple syrup to your table. Georges Maple Products offers maple syrup, cream, candies, and maple granules.  Visit our <a href="http://homework.genesee.edu/~pstutzma/project2/products.html">Products</a> page for pricing. </p>
+ 
+ <p><img src="images/orange_leaf.png" width="32" height="32" alt="orange_leaf" title="orange_leaf" /><img src="images/dark_green_leaf.png" width="32" height="32" alt="dark_green_leaf" title="dark_green_leaf"/><img src="images/dark_red.png" width="32" height="32" alt="dark_red" title="dark_red"/><img src="images/green_leaf.png" width="32" height="32" alt="green_leaf" title="green_leaf" /><img src="images/red_leaf.png" width="32" height="32" alt="red_leaf" title="red_leaf"/></p>
+ 
+ <img id="boiling" src="images/boiling.jpg" alt="boiling" title="boiling" width="400" height="228"
+onmouseover="change('boiling','images/sap.jpg')"
+ onmouseout="change('boiling','images/boiling.jpg')"
+
+ />
+ 
+ <p>Using over 2700 taps and a vacuum system to deliver the maple sap to the sugar shanty. Then using reverse osmosis to remove 70% of the water from the sap to reduce the boiling times. The sap is then boiled to a tempareture of 219 degrees Fahrenheit. It takes about 40 to 50 gallons of sap to make 1 gallon of syrup. It is then graded for color, either light, medium, or dark amber. The lighter the color, lighter the taste, the darker the color, and the stronger the taste.</p>
+ 
+ <p><img src="images/orange_leaf.png" width="32" height="32" alt="orange_leaf" title="orange_leaf" /><img src="images/dark_green_leaf.png" width="32" height="32" alt="dark_green_leaf" title="dark_green_leaf"/><img src="images/dark_red.png" width="32" height="32" alt="dark_red" title="dark_red"/><img src="images/green_leaf.png" width="32" height="32" alt="green_leaf" title="green_leaf" /><img src="images/red_leaf.png" width="32" height="32" alt="red_leaf" title="red_leaf"/></p>
+ 
+  <img id="shanty2" src="images/shanty2.jpg" alt="shanty" title="shanty" width="400" height="228"
+onmouseover="change('shanty2','images/shanty1.jpg')"
+ onmouseout="change('shanty2','images/shanty2.jpg')"
+ />
+
+</div>
+
+<div id="footer">
+
+<form NAME="form2" action="nextpage.html">
+  
+    <select name="select2" size="1" onChange="goToPage2()">
+      <option value="none">Select a page and go</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/index.html">Home</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/recipes.html">Recipes</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/comments.html">Comments</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/contacts.html">Contacts</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/events.html">Events</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/products.html">Products</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/resources.html">Resources</option>
+      </select>
+  
+</form>
+
+<img class="val" src="images/validation.png"  width="35" height="21" alt="validation icon" title="validation icon"/>
+
+</div>
+
+
+
+
+</div><!-- end of wrapper -->
+
+
+</body>
+</html>

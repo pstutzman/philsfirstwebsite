@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>George's Maple Products</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+function goToPage2()
+{
+PageIndex2=document.form2.select2.selectedIndex
+if (document.form2.select2.options[PageIndex2].value != "none")
+   {
+  window.location = document.form2.select2.options[PageIndex2].value
+  }// end of if statement
+}// end of function
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="wrapper">
+
+
+<div class="BodyTextBold" id="header">
+<h1 class="h1">George's Maple Products</h1>
+<h6 class="h6">~ Est. 1873 ~</h6>
+
+</div>
+
+
+
+<div id="nav">
+
+<ul>
+			<li><a class="button" href="index.html" >Home</a></li>
+		<li><a class="button" href="recipes.html" >Recipes</a></li>
+		<li><a class="button" href="comments.html" >Comments</a></li>
+		<li><a class="button" href="contacts.html" >Contact</a></li>
+        <li><a class="button" href="events.html"  >Events</a></li>
+        <li><a class="button" href="products.html" >Products</a></li>
+		<li><a  class="button" href="resources.html" >Resources</a></li>
+        
+	</ul>
+
+</div>
+
+
+
+<div id="content" class="ContactsLength">
+<p class="BodyText" ></p>
+
+<p class="h3">Philip George</p>
+<p>1766 Route 77</p>
+<p>Strykersville, NY 14145-9569</p>
+<p><strong>County:</strong> Wyoming</p>
+<p><strong>Phone:</strong> (585)591-8132</p>
+<a href="mailto:geomaple@yahoo.com" class="mail">geomaple@yahoo.com</a>
+
+
+<p><img src="images/orange_leaf.png" width="32" height="32" alt="orange_leaf" title="orange_leaf"/><img src="images/dark_green_leaf.png" width="32" height="32" alt="dark_green_leaf" title="dark_green_leaf"/><img src="images/dark_red.png" width="32" height="32" alt="dark_red" title="dark_red" /><img src="images/green_leaf.png" width="32" height="32" alt="green_leaf" title="green_leaf"/><img src="images/red_leaf.png" width="32" height="32" alt="red_leaf"  title="red_leaf"/></p>
+
+<h2 class="h2">Get Directions</h2>
+
+<form action="http://maps.google.com/maps" method="get" target="_blank">
+<p>Enter your starting address:</p>
+<input type="text" name="saddr" />
+<input type="hidden" name="daddr" value="1766 Alleghany Rd.,Strykersville, NY 14145" />
+<input type="submit" value="Get Directions" />
+</form>
+
+
+</div>
+
+
+<div id="footer">
+
+<form NAME="form2" action="nextpage.html">
+ 
+    <select name="select2" size="1" onChange="goToPage2()">
+      <option value="none">Select a page and go</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/index.html">Home</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/recipes.html">Recipes</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/comments.html">Comments</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/contacts.html">Contacts</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/events.html">Events</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/products.html">Products</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/resources.html">Resources</option>
+        </select>
+  
+</form>
+
+<img class="val" src="images/validation.png"  width="35" height="21" alt="validation icon" title="validation icon"/>
+
+</div>
+
+
+
+</div><!-- end of wrapper -->
+
+
+</body>
+</html>

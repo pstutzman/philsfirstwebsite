@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-image: url(../images/phil3.jpg);
+ background-attachment:fixed;
+  background-repeat:no-repeat;
+
+}
+
+
+
+
+
+
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+ color:black;
+}
+
+#header {
+text-align:center;
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border: transparent;
+ height: 100px;
+ margin: 0px 0px 5px 0px;
+	background: #FFF5EE;
+background: rgb(255, 245, 238); /* Fallback */
+background: rgba(255, 245, 238, 0.6);
+ 
+}
+
+#nav {
+width: 900px;
+float: left;
+padding: 10px;
+border: transparent;
+height: 30px;
+margin: 0px 0px 10px 0px;
+	background: #FFF5EE;
+background: rgb(255, 245, 238); /* Fallback */
+background: rgba(255, 245, 238, 0.6);
+}
+
+#content {
+	text-align: center;
+	color: #000;
+	width: 900px;
+	float: left;
+	padding: 10px;
+	border: transparent;
+	margin: 0px 0px 5px 0px;
+	background: #FFF5EE;
+	background: rgb(255, 245, 238); /* Fallback */
+	background: rgba(255, 245, 238, 0.6);
+ 
+}
+
+#footer {
+text-align:center;
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px;
+ border: transparent;
+ height: 45px;
+ margin: 0px 0px 5px 0px;
+	background: #FFF5EE;
+background: rgb(255, 245, 238); /* Fallback */
+background: rgba(255, 245, 238, 0.6);
+ 
+}

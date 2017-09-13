@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>George's Maple Products</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/sample3.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+
+function goToPage2()
+{
+PageIndex2=document.form2.select2.selectedIndex
+if (document.form2.select2.options[PageIndex2].value != "none")
+   {
+  window.location = document.form2.select2.options[PageIndex2].value
+  }// end of if statement
+}// end of function
+
+</script>
+
+
+</head>
+
+<body>
+
+
+<div id="wrapper">
+
+
+<div class="BodyTextBold" id="header">
+<h1 class="h1">George's Maple Products</h1>
+<h6 class="h6">~ Est. 1873 ~</h6>
+
+</div>
+
+
+
+<div id="nav">
+
+	<ul>
+		<li><a class="button" href="index.html" >Home</a></li>
+		<li><a class="button" href="recipes.html" >Recipes</a></li>
+		<li><a class="button" href="comments.html" >Comments</a></li>
+		<li><a class="button" href="contacts.html" >Contact</a></li>
+        <li><a class="button" href="events.html"  >Events</a></li>
+        <li><a class="button" href="products.html" >Products</a></li>
+		<li><a  class="button" href="resources.html" >Resources</a></li>
+        
+	</ul>
+
+</div>
+
+
+
+<div id="content" class="EventsLength">
+<h2 class="h2">Maple Weekend</h2>
+<p><strong>March 19 - 20</strong> and <strong>April 2 - 3 2016</strong></p>
+<p><strong>10:00 a.m.</strong> to <strong>4:00 p.m.</strong></p>
+<p>Each year on Maple Weekend local Maple Producers open their sugar shanty's to the public to show them the process of making Maple Syrup. We would love to have your family join us on Maple weekend. So save the date.</p>
+
+<p><img src="images/orange_leaf.png" width="32" height="32" alt="orange_leaf" title="orange_leaf" /><img src="images/dark_green_leaf.png" width="32" height="32" alt="dark_green_leaf" title="dark_green_leaf"/><img src="images/dark_red.png" width="32" height="32" alt="dark_red" title="dark_red"/><img src="images/green_leaf.png" width="32" height="32" alt="green_leaf" title="green_leaf" /><img src="images/red_leaf.png" width="32" height="32" alt="red_leaf" title="red_leaf"/></p>
+
+<p>Call anytime for a tour. School tours welcomed.</p>
+
+<p><img src="images/orange_leaf.png" width="32" height="32" alt="orange_leaf" title="orange_leaf" /><img src="images/dark_green_leaf.png" width="32" height="32" alt="dark_green_leaf" title="dark_green_leaf"/><img src="images/dark_red.png" width="32" height="32" alt="dark_red" title="dark_red"/><img src="images/green_leaf.png" width="32" height="32" alt="green_leaf" title="green_leaf" /><img src="images/red_leaf.png" width="32" height="32" alt="red_leaf" title="red_leaf"/></p>
+
+</div>
+
+<div id="footer">
+
+<form NAME="form2" action="nextpage.html">
+  
+    <select name="select2" size="1" onChange="goToPage2()">
+      <option value="none">Select a page and go</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/index.html">Home</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/recipes.html">Recipes</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/comments.html">Comments</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/contacts.html">Contacts</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/events.html">Events</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/products.html">Products</option>
+      <option value="http://homework.genesee.edu/~pstutzma/project2/resources.html">Resources</option>
+        </select>
+  
+</form>
+
+<img class="val" src="images/validation.png"  width="35" height="21" alt="validation icon" title="validation icon"/>
+
+</div>
+
+
+
+
+
+
+</div><!-- end of wrapper -->
+
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+.BodyText 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: black;
+	line-height: 17pt;
+	list-style-type: square;
+}
+
+.BodyTextBold
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: Black;
+	line-height: 17pt;
+	font-weight: bold;
+	list-style-type: square;
+}
+
+.h1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: #900;
+	
+	font-weight: bold;
+	list-style-type: square;
+	text-align:center;
+	
+	
+}
+
+.h2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #900;
+	line-height: 17pt;
+	font-weight: bold;
+	list-style-type: square;
+	text-align:center;
+}
+
+.h3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #900;
+	line-height: 17pt;
+	font-weight: bold;
+	list-style-type: square;
+	text-align:center;
+	
+}
+
+.h6 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	list-style-type: square;
+	line-height: 17pt;
+	color: #900;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	
+}
+
+li {
+    float: left;
+}
+
+
+   ul li a:hover{
+        color: #fff;
+        background: #e65032;
+    }
+
+
+p {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+	list-style-position: outside;
+	color: black;
+	line-height: 20px;
+	font-size: 18px;
+	
+	
+}
+
+
+.button {
+	
+     font-family: Arial, Helvetica, sans-serif;
+	 font-size: 18px;
+	 color: #FFFAF0;
+	
+	 font-weight: bold;
+	list-style-type: square;
+	text-align:center;
+	  background-image: url(../images/nav_leaves.jpg);
+	    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+	display: block;
+    width: 120px;
+}
+
+
+table
+{
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: Black;
+	font-size: 16px;
+	font-weight: bold;
+	width:100%;
+	border:0;
+	alignment-adjust:auto;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: Black;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	width:50%;
+	}
+	
+
+
+.CommentsLength {
+height: 700px;	
+	
+}
+
+.RecipesLength {
+height: 2500px;	
+	
+}
+
+.ProductsLength {
+height: 1000px;	
+	
+}
+
+.ContactsLength {
+height: 700px;	
+	
+}
+
+.EventsLength {
+height: 700px;	
+	
+}
+
+
+.IndexLength {
+height: 800px;	
+	
+}
+
+.ResourcesLength {
+height: 700px;	
+	
+}
+
+#sugar46{
+float:left;
+padding-right:15px;
+padding-bottom:20px;
+padding-left:10px;
+}
+
+#boiling{
+float:right;
+padding-left: 10px;
+padding-right:15px;
+padding-bottom:15px;
+}
+
+.mail {
+	text-align:center;
+	font-size: 24px;
+}
+
+.val {
+	float:none;
+}
+
+.external{
+text-align:center;
+
+font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	
+	font-size: 16px;
+	
+	width:100%;
+	border:0;
+	alignment-adjust:auto;
+}
